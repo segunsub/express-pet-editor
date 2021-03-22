@@ -1,5 +1,5 @@
 # Pet Editor
-Fork and Clone down this repo. Run `npm install` to install dependecies. Run `npm start` to start the app and view it on port 8000.
+Fork and Clone down this repo. Run `npm install` to install dependecies. Run `npm start` to start the app and view it on `http://localhost:8000/`.
 
 ## Starter Code
 You are building a pet editor for a local animal shelter. However, this animal shelter will always have **exactly 3 pets** avaliable for adoption. You are to build the following features. You are allowed to create new files and edit the existing starter code as you see fit!
