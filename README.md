@@ -8,4 +8,4 @@ You are building a pet editor for a local animal shelter. However, this animal s
 There needs to be some way to increment the Like Count of a pet. Once a pet's like count is incremented, you should redirect to the home page.
 
 ## Edit/Replace a Pet
-There should be a way to edit a pet and enter a brand new set of information. For example, perhaps clicking on a pet will redirect to an edit form, which will allow the user to update the name, species, age, notes, and likes. Think of this feature as a way to update one of the 3 pet "slots" with a new pet that the shelter has taken in once the old pet is adopted!  
+There should be a way to edit a pet and enter a brand new set of information. For example, perhaps clicking on a pet will redirect to an edit form, which will allow the user to update the name, species, age, notes. Editing a pet should also reset it's like count to be 0. Think of this feature as a way to update one of the 3 pet "slots" with a new pet that the shelter has taken in once the old pet is adopted!  
