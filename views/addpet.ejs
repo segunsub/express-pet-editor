@@ -1,0 +1,19 @@
+<%- include('./partials/header.ejs') %>
+<body>
+  <%- include('./partials/navbar.ejs') %>
+    <h1>Add Pet</h1>
+   
+    <form action="/" method="post">
+        <label for="name">Pet Name:</label>
+        <input type="text" value="" name="name"><br>
+        <label for="species">Pet Species:</label>
+        <input type="text" value=" " name="species"><br>
+        <label for="age">Pet age:</label>
+        <input type="text" value="" name="age"><br>
+        <label for="notes">Pet notes:</label><br>
+        <textarea name="notes" id="" cols="30" rows="10" ></textarea><br>
+        <input type="submit" value="Save">
+    </form>
+  
+</body>
+</html> 

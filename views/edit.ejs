@@ -1,0 +1,19 @@
+<%- include('./partials/header.ejs') %>
+<body>
+  <%- include('./partials/navbar.ejs') %>
+    <h1>Edit Pet</h1>
+   
+    <form action="/pets/<%= obj.id %>?_method=PATCH" method="post">
+        <label for="name">Pet Name:</label>
+        <input type="text" value="<%= obj.name %> " name="name"><br>
+        <label for="species">Pet Species:</label>
+        <input type="text" value="<%= obj.species %> " name="species"><br>
+        <label for="age">Pet age:</label>
+        <input type="text" value="<%= obj.age %> " name="age"><br>
+        <label for="notes">Pet notes:</label><br>
+        <textarea name="notes" id="" cols="30" rows="10" ><%= obj.notes %></textarea><br>
+        <input type="submit" value="Save">
+    </form>
+  
+</body>
+</html> 

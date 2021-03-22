@@ -4,7 +4,8 @@
   <div class="ui container">
     <div class="ui link cards">
       <% for(const pet of pets){ %>
-        <div class="card">
+        <a href="/pets/<%=pet.id%>">
+        <div class="card"  >
           <div class="content">
             <div class="header"><%= pet.name %></div>
             <div class="meta">
@@ -19,11 +20,15 @@
               <%= pet.age %>
             </span>
             <span>
+              <a href="/pets/<%=pet.id%>/like">
               <i class="heart icon"></i>
+            </a>
               <%= pet.likes %>
+            
             </span>
           </div>
         </div>
+      </a>
       <% } %>
     </div>
   </div>
