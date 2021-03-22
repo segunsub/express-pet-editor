@@ -2,7 +2,7 @@
 Fork and Clone down this repo. Run `npm install` to install dependecies. Run `npm start` to start the app and view it on port 8000.
 
 ## Starter Code
-You are building a pet editor for a local animal shelter. However, this animal shelter will always have **exactly 3 pets** avlaiable for adoption. You are to build the following features.
+You are building a pet editor for a local animal shelter. However, this animal shelter will always have **exactly 3 pets** avaliable for adoption. You are to build the following features.
 
 ## Increment Likes for a Pet
 There needs to be some way to increment the Like Count of a pet. Once a pet's like count is incremented, you should redirect to the home page.
